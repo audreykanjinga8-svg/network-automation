@@ -1,0 +1,5 @@
+hostname: router_kin
+interfaces:
+  - name: eth1
+    ip: 10.0.0.1/24
+    description: WAN_LINK
