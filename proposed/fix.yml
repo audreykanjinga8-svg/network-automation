@@ -1,0 +1,6 @@
+actions:
+- CPU usage high
+interface: eth1
+priority: high
+qos: increase
+timestamp: '2026-01-29T11:51:39.352023'
