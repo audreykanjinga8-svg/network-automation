@@ -8,7 +8,7 @@ deployment_success = Counter("deployment_success_total", "Nombre de déploiement
 deployment_failed = Counter("deployment_failed_total", "Nombre de déploiements échoués")
 
 # Exposer le port 8000
-start_http_server(8000)
+start_http_server(8000, addr="0.0.0.0")
 
 while True:
     # Simulation : l'agent détecte un incident aléatoire
